@@ -95,6 +95,11 @@
 
 /* ------ Content ------ */
 
+.content {
+    position: relative;
+    float: left;
+}
+
 .main-heading {
     max-width: 496px;
     height: 152px;
@@ -150,3 +155,20 @@
 }
 
 /* ------ Images ------ */
+
+.main-img {
+    position: relative;
+    float: right;
+    width: 658px;
+    height: 700px;
+    margin-top: 48px;
+    margin-right: 86px;
+}
+
+.img-overlay {
+    position: absolute;
+    float: right;
+    width: 805px;
+    height: 509px;
+    margin-top: 136px;
+}
