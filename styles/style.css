@@ -19,6 +19,10 @@
     margin: 37px 98px 0 80px;
 }
 
+.logo:hover {
+    color: #5c31b8;
+}
+
 .logo-dot {
     color: #824FF1;
 }
@@ -43,6 +47,10 @@
     letter-spacing: 0.02em;
     color: #1B0A42;
     text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #824FF1;
 }
 
 .about {
@@ -71,4 +79,9 @@
     color: #FFFFFF;
     border: none;
     margin-left: 40px;
+}
+
+.sign-up:hover {
+    color: #FFFFFF;
+    background-color: #5c31b8;
 }
