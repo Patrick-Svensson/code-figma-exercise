@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:ital,wght@0,700;1,400&display=swap');
 @import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
 
+
+/* ------ Wildcard ------ */
+
 * {
     padding: 0;
     margin: 0;
 }
+
+/* ------ Logo ------ */
 
 .logo {
     font-family: "Circular Std Black", sans-serif;
@@ -27,6 +32,8 @@
     color: #824FF1;
 }
 
+/* ------ Navigation ------ */
+
 .nav {
     display: inline-block;
 }
@@ -37,7 +44,7 @@
 }
 
 .nav-links {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -68,7 +75,7 @@
     height: 60px;
     background: #824FF1;
     border-radius: 6px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -82,6 +89,64 @@
 }
 
 .sign-up:hover {
-    color: #FFFFFF;
+    color: #d3d2d2;
     background-color: #5c31b8;
 }
+
+/* ------ Content ------ */
+
+.main-heading {
+    max-width: 496px;
+    height: 152px;
+    margin-top: 209px;
+    margin-left: 200px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.main-content {
+    max-width: 591px;
+    height: 96px;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.main-btn {
+    width: 152px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background: #824FF1;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-btn:hover {
+    background-color: #5c31b8;
+    color: #d3d2d2;
+}
+
+/* ------ Images ------ */
