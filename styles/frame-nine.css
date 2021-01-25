@@ -91,10 +91,9 @@
 /* ------ Images ------ */
 
 .main-img {
-    position: relative;
     float: right;
-    width: 658px;
-    height: 700px;
-    margin-top: 48px;
-    margin-right: 86px;
+    width: 756px;
+    height: 638px;
+    margin-top: 83px;
+    margin-right: 42px;
 }
