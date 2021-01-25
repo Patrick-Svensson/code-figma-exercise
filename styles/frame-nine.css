@@ -1,6 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:ital,wght@0,700;1,400&display=swap');
+
 /* ------ Wildcard ------ */
 
 * {
     padding: 0;
     margin: 0;
+}
+
+/* ------ Logo ------ */
+
+.logo {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    /* or 160% */
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+    text-decoration: none;
+    margin: 37px 0 0 80px;
+}
+
+.logo-dot {
+    color: #A3DC00;
+}
+
+/* ------ Content ------ */
+
+.content {
+    position: relative;
+    float: left;
+}
+
+.main-heading {
+    max-width: 496px;
+    height: 152px;
+    margin-top: 209px;
+    margin-left: 200px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.main-content {
+    max-width: 591px;
+    height: 96px;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.main-btn {
+    width: 152px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background: #A3DC00;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-btn:hover {
+    background-color: #90c404;
+}
+
+/* ------ Images ------ */
+
+.main-img {
+    position: relative;
+    float: right;
+    width: 658px;
+    height: 700px;
+    margin-top: 48px;
+    margin-right: 86px;
 }
