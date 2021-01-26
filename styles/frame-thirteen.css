@@ -1,24 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:ital,wght@0,700;1,400&display=swap');
 @import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
 
+
 /* ------ Wildcard ------ */
 
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
-
-/* ------ Body ------ */
-
-body {
-    width: 100%;
 }
 
 /* ------ Logo ------ */
 
 .logo {
-    display: block;
     font-family: "Circular Std Black", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -32,10 +25,143 @@ body {
 }
 
 .logo:hover {
-    color: #1487ca;
+    color: #5c31b8;
 }
 
 .logo-dot {
     color: #33A2E0;
+}
+
+/* ------ Navigation ------ */
+
+.nav {
+    display: inline-block;
+}
+
+.nav-items {
+    display: inline-block;
+    margin-top: 48px;
+}
+
+.nav-links {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #33A2E0;
+}
+
+.about {
+    margin-left: 38px;
+    margin-right: 40px;
+}
+
+.contact {
+    margin-left: 38px;
+    margin-right: 752px;
+}
+
+.sign-up {
+    width: 120px;
+    height: 60px;
+    background: #33A2E0;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 40px;
+}
+
+.sign-up:hover {
+    color: #d3d2d2;
+    background-color: #2282b9;
+}
+
+/* ------ Content ------ */
+
+.content {
+    position: relative;
+    float: left;
+}
+
+.main-heading {
+    max-width: 496px;
+    height: 152px;
+    margin-top: 209px;
+    margin-left: 200px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.main-content {
+    max-width: 550px;
+    height: 96px;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.main-btn {
+    width: 152px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background: #33A2E0;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-btn:hover {
+    background-color: #2282b9;
+    color: #d3d2d2;
+}
+
+/* ------ Images ------ */
+
+.main-img {
+    position: relative;
+    float: right;
+    width: 750px;
+    height: 543px;
+    margin-top: 131px;
+    margin-right: 86px;
 }
 
